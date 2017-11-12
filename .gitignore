@@ -1,0 +1,15 @@
+.DS_Store
+Distribute
+# Ignore build folder
+build
+ModuleCache
+Index
+# Ignore XCode user-data
+IOElectrify.xcodeproj/project.xcworkspace/xcuserdata
+IOElectrify.xcodeproj/project.xcworkspace/xcshareddata
+IOElectrify.xcodeproj/xcuserdata
+IOElectrify/TextIndex
+IOElectrify/OpenQuickly-ReferencedFrameworks*
+IOElectrify/info.plist
+IOElectrify/scm.plist
+

@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4096F861A52FCED005C037A /* IOElectrify.h in Headers */ = {isa = PBXBuildFile; fileRef = D4096F851A52FCED005C037A /* IOElectrify.h */; };
+		D4096F881A52FCED005C037A /* IOElectrify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4096F871A52FCED005C037A /* IOElectrify.cpp */; };
+		D41D13241FB57F7400412FC6 /* IOElectrifyBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D41D13231FB57F7400412FC6 /* IOElectrifyBridge.cpp */; };
+		D49DC3741FB341EB000D0F4F /* WMI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49DC3721FB341EB000D0F4F /* WMI.cpp */; };
+		D49DC3751FB341EB000D0F4F /* WMI.h in Headers */ = {isa = PBXBuildFile; fileRef = D49DC3731FB341EB000D0F4F /* WMI.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84F11DE71A588B8A003DC874 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; usesTabs = 1; };
+		84F11DE81A588B8A003DC874 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D4096F801A52FCED005C037A /* IOElectrify.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOElectrify.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4096F851A52FCED005C037A /* IOElectrify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOElectrify.h; sourceTree = "<group>"; };
+		D4096F871A52FCED005C037A /* IOElectrify.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOElectrify.cpp; sourceTree = "<group>"; };
+		D41D13201FB57F1400412FC6 /* IOElectrifyBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOElectrifyBridge.h; sourceTree = "<group>"; };
+		D41D13231FB57F7400412FC6 /* IOElectrifyBridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOElectrifyBridge.cpp; sourceTree = "<group>"; };
+		D42AADF51FB21AE300561B9A /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		D45DA2621FB21CCB00A92A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49DC3721FB341EB000D0F4F /* WMI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WMI.cpp; sourceTree = "<group>"; };
+		D49DC3731FB341EB000D0F4F /* WMI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMI.h; sourceTree = "<group>"; };
+		D49DC3761FB34719000D0F4F /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4096F7C1A52FCED005C037A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4096F761A52FCEC005C037A = {
+			isa = PBXGroup;
+			children = (
+				84F11DE71A588B8A003DC874 /* makefile */,
+				84F11DE81A588B8A003DC874 /* README.md */,
+				D4096F821A52FCED005C037A /* IOElectrify */,
+				D4096F811A52FCED005C037A /* Products */,
+				D42AADF41FB21AE300561B9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4096F811A52FCED005C037A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4096F801A52FCED005C037A /* IOElectrify.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4096F821A52FCED005C037A /* IOElectrify */ = {
+			isa = PBXGroup;
+			children = (
+				D45DA2611FB21CAF00A92A1E /* Supporting Files */,
+				D4096F851A52FCED005C037A /* IOElectrify.h */,
+				D41D13201FB57F1400412FC6 /* IOElectrifyBridge.h */,
+				D4096F871A52FCED005C037A /* IOElectrify.cpp */,
+				D49DC3721FB341EB000D0F4F /* WMI.cpp */,
+				D49DC3731FB341EB000D0F4F /* WMI.h */,
+				D49DC3761FB34719000D0F4F /* common.h */,
+				D41D13231FB57F7400412FC6 /* IOElectrifyBridge.cpp */,
+			);
+			path = IOElectrify;
+			sourceTree = "<group>";
+		};
+		D42AADF41FB21AE300561B9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42AADF51FB21AE300561B9A /* Kernel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D45DA2611FB21CAF00A92A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D45DA2621FB21CCB00A92A1E /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D4096F7D1A52FCED005C037A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49DC3751FB341EB000D0F4F /* WMI.h in Headers */,
+				D4096F861A52FCED005C037A /* IOElectrify.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D4096F7F1A52FCED005C037A /* IOElectrify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4096F8B1A52FCED005C037A /* Build configuration list for PBXNativeTarget "IOElectrify" */;
+			buildPhases = (
+				D4096F7B1A52FCED005C037A /* Sources */,
+				D4096F7C1A52FCED005C037A /* Frameworks */,
+				D4096F7D1A52FCED005C037A /* Headers */,
+				D4096F7E1A52FCED005C037A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOElectrify;
+			productName = IOElectrify;
+			productReference = D4096F801A52FCED005C037A /* IOElectrify.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4096F771A52FCEC005C037A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = nobody;
+				TargetAttributes = {
+					D4096F7F1A52FCED005C037A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D4096F7A1A52FCEC005C037A /* Build configuration list for PBXProject "IOElectrify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4096F761A52FCEC005C037A;
+			productRefGroup = D4096F811A52FCED005C037A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4096F7F1A52FCED005C037A /* IOElectrify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4096F7E1A52FCED005C037A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4096F7B1A52FCED005C037A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4096F881A52FCED005C037A /* IOElectrify.cpp in Sources */,
+				D49DC3741FB341EB000D0F4F /* WMI.cpp in Sources */,
+				D41D13241FB57F7400412FC6 /* IOElectrifyBridge.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D4096F891A52FCED005C037A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"LOGNAME=\\\"${LOGNAME}\\\"",
+				);
+				INFOPLIST_FILE = "IOElectrify/Supporting Files/Info.plist";
+				MODULE_VERSION = 1.0.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.13;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		D4096F8A1A52FCED005C037A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "LOGNAME=\\\"${LOGNAME}\\\"";
+				INFOPLIST_FILE = "IOElectrify/Supporting Files/Info.plist";
+				MODULE_VERSION = 1.0.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.13;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		D4096F8C1A52FCED005C037A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "IOElectrify/Supporting Files/Info.plist";
+				MODULE_NAME = org.darkvoid.driver.IOElectrify;
+				PRODUCT_NAME = IOElectrify;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		D4096F8D1A52FCED005C037A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "IOElectrify/Supporting Files/Info.plist";
+				MODULE_NAME = org.darkvoid.driver.IOElectrify;
+				PRODUCT_NAME = IOElectrify;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4096F7A1A52FCEC005C037A /* Build configuration list for PBXProject "IOElectrify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4096F891A52FCED005C037A /* Debug */,
+				D4096F8A1A52FCED005C037A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4096F8B1A52FCED005C037A /* Build configuration list for PBXNativeTarget "IOElectrify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4096F8C1A52FCED005C037A /* Debug */,
+				D4096F8D1A52FCED005C037A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4096F771A52FCEC005C037A /* Project object */;
+}
