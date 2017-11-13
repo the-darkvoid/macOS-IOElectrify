@@ -47,19 +47,19 @@
 		</dict>
 		<key>IOElectrifyBridge</key>
 		<dict>
-			<key>#CFBundleIdentifier</key>
+			<key>CFBundleIdentifier</key>
 			<string>org.darkvoid.driver.IOElectrify</string>
-			<key>#IOClass</key>
+			<key>IOClass</key>
 			<string>IOElectrifyBridge</string>
-			<key>#IOProviderClass</key>
+			<key>IOProviderClass</key>
 			<string>IOPCI2PCIBridge</string>
-			<key>#IOProbeScore</key>
+			<key>IOProbeScore</key>
 			<integer>10</integer>
-			<key>#IOPCIClassMatch</key>
+			<key>IOPCIClassMatch</key>
 			<string>0x06040000&amp;0xffff0000</string>
-			<key>#IOPCIPrimaryMatch</key>
-			<string>0x76158086</string>
-			<key>#IOMatchCategory</key>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x76158086 0x15da8086</string>
+			<key>IOMatchCategory</key>
 			<string>IOElectrify</string>
 		</dict>
 	</dict>
