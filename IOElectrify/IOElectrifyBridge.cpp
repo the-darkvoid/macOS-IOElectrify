@@ -66,8 +66,8 @@ bool IOElectrifyBridge::attach(IOService* provider)
 
     DebugLog("Provider -> Provider %s\n", mProvider->getProvider()->getName());
 
-    if (strcmp(mProvider->getProvider()->getName(), "RP01")) {
-        DebugLog("Mismatch %s vs RP01\n", mProvider->getProvider()->getName());
+    if (strcmp(mProvider->getProvider()->getName(), "PEG2")) {
+        DebugLog("Mismatch %s vs PEG2\n", mProvider->getProvider()->getName());
         return false;
     }
 
