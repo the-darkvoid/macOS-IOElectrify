@@ -1,3 +1,4 @@
+[![download-badge](https://img.shields.io/github/downloads/RockJesus/macOS-IOElectrify/total.svg?logo=DocuSign "Download status")](https://github.com/RockJesus/macOS-IOElectrify/releases/latest "Download status")
 # Introduction
 
 IOElectrify is a macOS kext which enables always-on power to Intel Thunderbolt hardware.
